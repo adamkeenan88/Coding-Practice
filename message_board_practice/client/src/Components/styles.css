@@ -1,0 +1,72 @@
+td {
+  border: 1px solid black;
+  text-align: left;
+}
+.allPets {
+  margin-top: 10px;
+}
+section {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  width: auto;
+}
+.petShelter {
+  height: 60px;
+  font-size: 45px;
+  margin: 5px;
+  width: 300px;
+}
+.linkBox {
+  height: 60px;
+  width: 230px;
+  margin-left: 55%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+#displayone .displaycolumnone p {
+  font-weight: bold;
+}
+.formcolumntwo {
+  margin-left: 20px;
+}
+
+.newpet {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100px;
+}
+
+#displayone {
+  display: flex;
+  margin: 10px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  align-items: flex-start;
+}
+.displaycolumnone {
+  margin-right: 10px;
+}
+
+.displaycolumntwo {
+  margin-left: 10px;
+}
+
+#details {
+  display: inline-flex;
+}
+
+#displayAdopt {
+  display: inline-flex;
+  margin-left: 50%;
+  background-color: red;
+}
