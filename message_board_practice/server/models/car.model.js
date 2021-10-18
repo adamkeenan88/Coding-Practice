@@ -1,12 +1,10 @@
 const mongoose = require("mongoose");
-const uniqueValidator = require("mongoose-unique-validator");
 
 const CarSchema = new mongoose.Schema(
   {
     year: {
       type: Number,
       required: [true, "Year is Required"],
-      unique: false,
       minLength: [3, "A Year must be at least 3 characters"],
     },
     make: {
@@ -30,5 +28,4 @@ const CarSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-CarSchema.plugin(uniqueValidator);
 module.exports = mongoose.model("Car", CarSchema);
